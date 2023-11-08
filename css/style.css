@@ -1,6 +1,37 @@
-#navbar {
-  background-image: url("../images/infinite-loop-01.jpg");
+* {
+  font-family: "Roboto", sans-serif;
 }
-#navbar .navbar-brand a {
-  color: white;
+
+:root {
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
+
+.navigation {
+  background-image: url("../images/infinite-loop-01.jpg");
+  height: 100vh;
+  position: relative;
+}
+.navigation #navbar {
+  background-color: var(--light);
+  height: 4rem;
+}
+.navigation .navbar-brand a {
+  color: var(--secondary);
+  position: absolute;
+  left: 25%;
+  top: 1rem;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
