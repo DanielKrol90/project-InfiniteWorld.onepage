@@ -1,1 +1,6 @@
-/*# sourceMappingURL=style.css.map */
+#navbar {
+  background-image: url("../images/infinite-loop-01.jpg");
+}
+#navbar .navbar-brand a {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
