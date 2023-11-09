@@ -17,19 +17,32 @@
   --breakpoint-xl: 1200px;
 }
 
+section {
+  height: 100vh;
+}
+
 .navigation {
   background-image: url("../images/infinite-loop-01.jpg");
-  height: 100vh;
-  position: relative;
 }
 .navigation #navbar {
-  background-color: var(--light);
+  height: 70px;
+  z-index: 9999;
+}
+.navigation .scroll {
+  background-color: var(--light) !important;
+  transition: background-color 200ms linear;
+}
+.navigation .scroll a.btn {
+  color: var(--primary) !important;
+}
+.navigation .scroll a.btn:hover {
+  color: var(--light) !important;
+}
+.navigation .navbar-brand {
+  margin-top: 0.6rem;
 }
 .navigation .navbar-brand a {
   color: var(--secondary);
-  position: absolute;
-  left: 25%;
-  top: 1rem;
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 700;
@@ -37,16 +50,20 @@
 .navigation .navbar-brand :hover {
   color: var(--light);
 }
-.navigation #navbar-list {
-  position: absolute;
-  right: 30%;
-}
 .navigation #navbar-list li a.btn-outline-primary {
   border-color: transparent;
   color: var(--light);
   border-radius: 0;
-  width: auto;
 }
 .navigation #navbar-list li a.btn-outline-primary:hover {
   background-color: var(--primary);
+}
+.navigation #home-text {
+  color: var(--light);
+  position: relative;
+  top: 40%;
+  font-size: 2rem;
+}
+.navigation #home-text h2 {
+  font-size: 4rem;
 }/*# sourceMappingURL=style.css.map */
