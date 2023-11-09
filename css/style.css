@@ -24,7 +24,6 @@
 }
 .navigation #navbar {
   background-color: var(--light);
-  height: 4rem;
 }
 .navigation .navbar-brand a {
   color: var(--secondary);
@@ -34,4 +33,20 @@
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 700;
+}
+.navigation .navbar-brand :hover {
+  color: var(--light);
+}
+.navigation #navbar-list {
+  position: absolute;
+  right: 30%;
+}
+.navigation #navbar-list li a.btn-outline-primary {
+  border-color: transparent;
+  color: var(--light);
+  border-radius: 0;
+  width: auto;
+}
+.navigation #navbar-list li a.btn-outline-primary:hover {
+  background-color: var(--primary);
 }/*# sourceMappingURL=style.css.map */
