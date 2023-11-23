@@ -18,10 +18,18 @@
 
 body {
     background-color: var(--light);
+    position: relative;
+    overflow-y: scroll;
 }
 
 section {
     height: 100vh;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.active {
+    background-color: var(--danger) !important;
 }
 
 .navigation {
@@ -44,6 +52,9 @@ section {
                 color: var(--light) !important;
             }
         }
+        .navbar-brand > a {
+            color: var(--primary) !important;
+        }
     }
 
     .navbar-brand {
@@ -51,7 +62,7 @@ section {
 
 
         a {
-            color: var(--secondary);
+            color: var(--light);
             text-decoration: none;
             font-size: 1.4rem;
             font-weight: 700;
@@ -78,7 +89,7 @@ section {
         }
     }
 
-    #home-text {
+    .home-text {
         color: var(--light);
         position: relative;
         top: 40%;
@@ -90,6 +101,7 @@ section {
     }
 }
 
+// section ABOUT
 #about {
     background-color: var(--light );
     position: relative;

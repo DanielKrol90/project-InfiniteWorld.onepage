@@ -18,10 +18,18 @@
 
 body {
   background-color: var(--light);
+  position: relative;
+  overflow-y: scroll;
 }
 
 section {
   height: 100vh;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.active {
+  background-color: var(--danger) !important;
 }
 
 .navigation {
@@ -42,11 +50,14 @@ section {
 .navigation .scroll a.btn:hover {
   color: var(--light) !important;
 }
+.navigation .scroll .navbar-brand > a {
+  color: var(--primary) !important;
+}
 .navigation .navbar-brand {
   margin-top: 0.6rem;
 }
 .navigation .navbar-brand a {
-  color: var(--secondary);
+  color: var(--light);
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 700;
@@ -62,13 +73,13 @@ section {
 .navigation #navbar-list li a.btn-outline-primary:hover {
   background-color: var(--primary);
 }
-.navigation #home-text {
+.navigation .home-text {
   color: var(--light);
   position: relative;
   top: 40%;
   font-size: 2rem;
 }
-.navigation #home-text h2 {
+.navigation .home-text h2 {
   font-size: 4rem;
 }
 
