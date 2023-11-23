@@ -66,4 +66,31 @@ section {
 }
 .navigation #home-text h2 {
   font-size: 4rem;
+}
+
+#about {
+  background-color: var(--);
+  position: relative;
+}
+#about .first-text {
+  position: relative;
+  top: 10%;
+}
+#about .first-text h3 {
+  color: var(--primary);
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: start;
+}
+#about .first-text p {
+  color: var(--secondary);
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: start;
+}
+#about #about-text {
+  color: var(--primary);
+  position: relative;
+  top: 15%;
+  font-size: 2rem;
 }/*# sourceMappingURL=style.css.map */
