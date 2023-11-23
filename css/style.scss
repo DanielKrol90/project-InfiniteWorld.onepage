@@ -3,18 +3,21 @@
 }
 
 :root {
-    --primary: #007bff;
-    --secondary: #6c757d;
-    --success: #28a745;
-    --info: #17a2b8;
-    --warning: #ffc107;
-    --danger: #dc3545;
-    --light: #f8f9fa;
-    --dark: #343a40;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1200px;
+    --indigo:#6610f2;
+    --orange:#fd7e14;
+    --teal:#20c997;
+    --primary:#255282;
+    --secondary:#6c757d;
+    --success:#28a745;
+    --info:#17a2b8;
+    --warning:#ffc107;
+    --danger:#dc3545;
+    --light:#f8f9fa;
+    --dark:#343a40;
+}
+
+body {
+    background-color: var(--light);
 }
 
 section {
@@ -27,6 +30,7 @@ section {
     #navbar {
         height: 70px;
         z-index: 9999;
+        border-bottom: 1px var(--secondary) solid;
     }
 
     .scroll {
@@ -87,7 +91,7 @@ section {
 }
 
 #about {
-    background-color: var(-- );
+    background-color: var(--light );
     position: relative;
 
     .first-text {
@@ -96,25 +100,46 @@ section {
 
         h3 {
             color: var(--primary);
-            font-size: 3rem;
-            font-weight: 700;
+            font-size: 2.5rem;
+            font-weight: 300;
             text-align: start;
             }
         p {
             color: var(--secondary);
-            font-size: 1.2rem;
-            font-weight: 400;
+            font-size: 1.3rem;
+            font-weight: 300;
             text-align: start;
-        
+            width: 100%;
         }
     }
-
-    
 
     #about-text {
         color: var(--primary);
         position: relative;
         top: 15%;
         font-size: 2rem;
+
+        p {
+            color: var(--secondary);
+            font-size: 1.3rem;
+            font-weight: 300;
+            text-align: start;
+            width: 100%;
+            padding-left: 4rem;
+        }
+        h3 {
+            color: var(--primary);
+            font-size: 2.2rem;
+            font-weight: 300;
+            text-align: start;
+            padding-top: 1rem;
+            }
+        i {
+            padding-right: 1rem;
+            font-size: 3rem;
+            position: relative;
+            left: -2%;
+        }
+        
     }
 }
