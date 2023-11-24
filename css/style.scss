@@ -28,7 +28,7 @@ body {
 }
 
 .active {
-    background-color: var(--primary);
+    background-color: var(--primary) !important;
     color: var(--light) !important;
 }
 
@@ -50,6 +50,10 @@ body {
             &:hover {
                 color: var(--light) !important;
             }
+        }
+        a.btn.active {
+            color: var(--light) !important;
+
         }
         .navbar-brand > a {
             color: var(--primary) !important;

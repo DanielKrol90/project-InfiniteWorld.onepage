@@ -27,7 +27,7 @@ body {
 }
 
 .active {
-  background-color: var(--primary);
+  background-color: var(--primary) !important;
   color: var(--light) !important;
 }
 
@@ -44,6 +44,9 @@ body {
   color: var(--primary) !important;
 }
 .navigation .scroll a.btn:hover {
+  color: var(--light) !important;
+}
+.navigation .scroll a.btn.active {
   color: var(--light) !important;
 }
 .navigation .scroll .navbar-brand > a {
