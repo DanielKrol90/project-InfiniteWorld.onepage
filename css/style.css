@@ -18,23 +18,12 @@
 
 body {
   background-color: var(--light);
-  position: relative;
-  overflow-y: scroll;
 }
 
-section {
+#home, #about, #testimony, #gallery, #contact {
   height: 100vh;
-  position: relative;
-  overflow-y: scroll;
 }
 
-.active {
-  background-color: var(--danger) !important;
-}
-
-.navigation {
-  background-image: url("../images/infinite-loop-01.jpg");
-}
 .navigation #navbar {
   height: 70px;
   z-index: 9999;
@@ -73,13 +62,17 @@ section {
 .navigation #navbar-list li a.btn-outline-primary:hover {
   background-color: var(--primary);
 }
-.navigation .home-text {
+
+#home {
+  background-image: url(/images/infinite-loop-01.jpg);
+}
+#home .home-text {
   color: var(--light);
   position: relative;
   top: 40%;
   font-size: 2rem;
 }
-.navigation .home-text h2 {
+#home .home-text h2 {
   font-size: 4rem;
 }
 
@@ -102,7 +95,6 @@ section {
   font-size: 1.3rem;
   font-weight: 300;
   text-align: start;
-  width: 100%;
 }
 #about #about-text {
   color: var(--primary);
@@ -115,7 +107,6 @@ section {
   font-size: 1.3rem;
   font-weight: 300;
   text-align: start;
-  width: 100%;
   padding-left: 4rem;
 }
 #about #about-text h3 {
@@ -129,5 +120,5 @@ section {
   padding-right: 1rem;
   font-size: 3rem;
   position: relative;
-  left: -2%;
+  left: -1rem;
 }/*# sourceMappingURL=style.css.map */
