@@ -19,6 +19,7 @@
 body {
     background-color: var(--light);
     position: relative;
+    height: 100vh;
 }
 
 
@@ -27,7 +28,8 @@ body {
 }
 
 .active {
-
+    background-color: var(--primary);
+    color: var(--light) !important;
 }
 
 .navigation {
@@ -88,7 +90,7 @@ body {
 }
 // section HOME
 #home {
-    background-image: url(/images/infinite-loop-01.jpg);
+    background-image: url(../images/infinite-loop-01.jpg);
 
     .home-text {
         color: var(--light);

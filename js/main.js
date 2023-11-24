@@ -6,3 +6,10 @@
       $('#navbar').removeClass("scroll");
     } 
   });
+
+  addEventListener("scroll", (event) => {
+    if(window.scrollY > 120) {
+    document.querySelector('.header') 
+      document.querySelector('.header') 
+    }
+  });
