@@ -18,6 +18,7 @@
 
 body {
   background-color: var(--light);
+  position: relative;
 }
 
 #home, #about, #testimony, #gallery, #contact {
