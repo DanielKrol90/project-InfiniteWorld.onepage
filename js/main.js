@@ -7,3 +7,8 @@
       navbar.classList.remove('scroll');
   }
 });
+
+// script for carousel working
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel();
+  });
