@@ -26,6 +26,7 @@ body {
     background-color: var(--primary) !important;
     color: var(--light) !important;
 }
+
 // section NAVIGATION BAR
 .navigation {
 
@@ -104,22 +105,28 @@ body {
         }
     }
 
-    .btn-arrow {    
+    .btn {    
         position: absolute;
         left: 47%;
         top: 85%;
         background-color: var(--primary);
-        width: 130px;
-        height: 70px;
+        width: 120px;
+        height: 60px;
         text-decoration: none;
+        transition:  all 0.4s ease-out;
+
+        &:hover {
+            transform: scale(1.2);
+            background-color: var(--info);
+
+        }
 
         .icon {
             display: flex;
             justify-content: center;
             color: var(--light);
-            font-size: 50px;
-            padding-top: 10px;
-
+            font-size: 40px;
+            padding-top: 2px;
         }
     }
 }
@@ -129,10 +136,12 @@ body {
     background-color: var(--light );
     position: relative;
     height: 60vh;
+    margin-top: 8rem;
 
     .first-text {
         position: relative;
         top: 10%;
+        margin-bottom: 5rem;
 
         h3 {
             color: var(--primary);
@@ -176,6 +185,28 @@ body {
         }
         
     }
+
+    .btn-container {
+        display: flex;
+        justify-content: space-around;
+
+        .btn {    
+            background-color: var(--primary);
+            width: 130px;
+            height: 70px;
+            text-decoration: none;
+            color: var(--light);
+            display: inline-block;
+            transition:  all 0.4s ease-out;
+
+            &:hover {
+                transform: scale(1.2);
+                background-color: var(--info);  
+            }
+        }     
+    }
+
+
 }
 
 // section testimony
