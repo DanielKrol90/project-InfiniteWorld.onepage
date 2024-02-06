@@ -1,8 +1,9 @@
  // Detect window scroll and update navbar
- $(window).scroll(function(e){          
-    if($(document).scrollTop() > 120) {
-      $('#navbar').addClass("scroll");
-    } else {
-      $('#navbar').removeClass("scroll");
-    } 
-  });
+ window.addEventListener('scroll', function(e) {
+  let navbar = document.getElementById('navbar');
+  if (document.documentElement.scrollTop > 120) {
+      navbar.classList.add('scroll');
+  } else {
+      navbar.classList.remove('scroll');
+  }
+});

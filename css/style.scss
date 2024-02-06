@@ -22,22 +22,17 @@ body {
     height: 100vh;
 }
 
-
-#home, #about, #testimony, #gallery, #contact {
-    height: 100vh;
-}
-
 .active {
     background-color: var(--primary) !important;
     color: var(--light) !important;
 }
-
+// section NAVIGATION BAR
 .navigation {
 
     #navbar {
         height: 70px;
         z-index: 9999;
-        border-bottom: 1px var(--secondary) solid;
+        // border-bottom: 1px var(--secondary) solid;
     }
 
     .scroll {
@@ -94,6 +89,7 @@ body {
 }
 // section HOME
 #home {
+    height: 100vh;
     background-image: url(../images/infinite-loop-01.jpg);
 
     .home-text {
@@ -112,6 +108,7 @@ body {
 #about {
     background-color: var(--light );
     position: relative;
+    height: 60vh;
 
     .first-text {
         position: relative;
@@ -159,4 +156,19 @@ body {
         }
         
     }
+}
+
+// section testimony
+#testimony {
+    height: 100vh;
+}
+
+// section gallery
+#gallery {
+    height: 100vh;
+}
+
+// section contact
+#contact {
+    height: 100vh;
 }
