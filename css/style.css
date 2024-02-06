@@ -71,6 +71,7 @@ body {
 #home {
   height: 100vh;
   background-image: url(../images/infinite-loop-01.jpg);
+  background-attachment: fixed;
 }
 #home .home-text {
   color: var(--light);
@@ -80,6 +81,22 @@ body {
 }
 #home .home-text h2 {
   font-size: 4rem;
+}
+#home .btn-arrow {
+  position: absolute;
+  left: 47%;
+  top: 85%;
+  background-color: var(--primary);
+  width: 130px;
+  height: 70px;
+  text-decoration: none;
+}
+#home .btn-arrow .icon {
+  display: flex;
+  justify-content: center;
+  color: var(--light);
+  font-size: 50px;
+  padding-top: 10px;
 }
 
 #about {
