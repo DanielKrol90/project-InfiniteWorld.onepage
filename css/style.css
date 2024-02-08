@@ -167,7 +167,7 @@ body {
 }
 
 #testimony {
-  height: 100vh;
+  height: 70vh;
   background-image: url(../images/infinite-loop-02.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -176,6 +176,7 @@ body {
 }
 #testimony .container {
   color: var(--light);
+  width: 50%;
 }
 #testimony .container h3 {
   margin-top: 6rem;
