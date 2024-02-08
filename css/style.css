@@ -27,10 +27,6 @@ body {
   color: var(--light) !important;
 }
 
-.navigation #navbar {
-  height: 70px;
-  z-index: 9999;
-}
 .navigation .scroll {
   background-color: var(--light) !important;
   transition: background-color 200ms linear;
@@ -107,8 +103,8 @@ body {
 #about {
   background-color: var(--light);
   position: relative;
-  height: 60vh;
-  margin-top: 8rem;
+  height: 80vh;
+  padding-top: 15vh;
 }
 #about .first-text {
   position: relative;
@@ -177,6 +173,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 5vh;
 }
 #testimony .container {
   color: var(--light);
@@ -188,6 +185,9 @@ body {
 #testimony .container span {
   font-size: 1.5rem;
   font-weight: 300;
+}
+#testimony .container .owl-carousel {
+  margin-top: 5rem;
 }
 
 #gallery {

@@ -30,12 +30,6 @@ body {
 // section NAVIGATION BAR
 .navigation {
 
-    #navbar {
-        height: 70px;
-        z-index: 9999;
-        // border-bottom: 1px var(--secondary) solid;
-    }
-
     .scroll {
         background-color: var(--light) !important;
         transition: background-color 200ms linear;
@@ -74,7 +68,6 @@ body {
 
     #navbar-list {
 
-
         li {
             a.btn-outline-primary {
                 border-color: transparent;
@@ -88,6 +81,7 @@ body {
         }
     }
 }
+
 // section HOME
 #home {
     height: 100vh;
@@ -135,8 +129,8 @@ body {
 #about {
     background-color: var(--light );
     position: relative;
-    height: 60vh;
-    margin-top: 8rem;
+    height: 80vh;
+    padding-top: 15vh;
 
     .first-text {
         position: relative;
@@ -216,6 +210,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 5vh;
 
     .container {
         color: var(--light);
@@ -229,9 +224,12 @@ body {
             font-size: 1.5rem;
             font-weight: 300;
         }
+
+        .owl-carousel {
+            margin-top: 5rem;
+
+        }
     }
-    
-    
 }
 
 // section gallery
