@@ -19,7 +19,8 @@
     position: relative;
     -ms-touch-action: pan-Y;
     touch-action: manipulation;
-    -moz-backface-visibility: hidden
+    -moz-backface-visibility: hidden;
+    
 }
 
 .owl-carousel .owl-stage:after {
@@ -28,7 +29,6 @@
     clear: both;
     visibility: hidden;
     line-height: 0;
-    height: 0
 }
 
 .owl-carousel .owl-stage-outer {
@@ -44,12 +44,12 @@
     -ms-backface-visibility: hidden;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0)
+    -ms-transform: translate3d(0, 0, 0);
 }
 
 .owl-carousel .owl-item {
     min-height: 1px;
-    float: left;
+    float: right;
     -webkit-backface-visibility: hidden;
     -webkit-touch-callout: none
 }

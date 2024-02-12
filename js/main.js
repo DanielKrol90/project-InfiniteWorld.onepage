@@ -14,12 +14,13 @@ $(document).ready(function(){
         {
             loop:true,
             items:3,
-            dots:true,
+            dots:false,
             dotsEach:3,
-            nav:true,
+            nav:false,
             autoplay:true,
             autoplayTimeout:2000,
             autoplayHoverPause:true,
+            clone: false,
         }
     );
   });

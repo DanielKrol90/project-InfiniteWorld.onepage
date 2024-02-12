@@ -176,11 +176,11 @@ body {
 }
 #testimony .container {
   color: var(--light);
-  width: 50%;
 }
 #testimony .container h3 {
   margin-top: 6rem;
   font-size: 3rem;
+  font-weight: 300;
 }
 #testimony .container span {
   font-size: 1.5rem;
@@ -188,6 +188,7 @@ body {
 }
 #testimony .container .owl-carousel {
   margin-top: 5rem;
+  margin-left: 4rem;
 }
 #testimony .container .owl-carousel .owl-carousel-item {
   width: 250px;
