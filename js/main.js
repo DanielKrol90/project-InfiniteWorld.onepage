@@ -24,3 +24,19 @@ $(document).ready(function(){
         }
     );
   });
+
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel(
+        {
+            loop:true,
+            items:3,
+            dots:false,
+            dotsEach:3,
+            nav:false,
+            autoplay:true,
+            autoplayTimeout:2000,
+            autoplayHoverPause:true,
+            clone: false,
+        }
+    );
+  });
