@@ -190,10 +190,7 @@ body {
   margin-top: 5rem;
   margin-left: 3.5rem;
 }
-#testimony .container .owl-carousel .owl-carousel-item {
-  width: 250px;
-}
-#testimony .container .owl-carousel .owl-carousel-item img {
+#testimony .container .owl-carousel .owl-item img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
