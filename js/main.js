@@ -12,14 +12,17 @@
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel(
         {
-            loop:false,
+            loop:true,
             items:3,
-            dots:false,
-            dotsEach:3,
+            dots:true,
+            dotsEach: 2, 
             nav:false,
             autoplay:true,
             autoplayTimeout:2000,
             autoplayHoverPause:true,
+            margin:0,
+            responsive:true,
+           
         }
     );
   });

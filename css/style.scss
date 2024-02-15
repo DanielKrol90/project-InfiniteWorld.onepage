@@ -207,7 +207,7 @@ body {
 
 // section testimony
 #testimony {
-    height: 70vh;
+    height: 80vh;
     background-image: url(../images/infinite-loop-02.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -232,36 +232,72 @@ body {
 
         .owl-carousel {
             margin-top: 5rem;
-            margin-left: 3.5rem;
+      
 
             .owl-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
 
                 img {
-                    width: 150px;
                     height: 150px;
+                    width: 150px;
                     border-radius: 50%;
-                    margin: 0 auto;
                     display: block;
                 }
             }
 
             blockquote {
                 font-size: 1rem;
-                font-weight: 300;
+                font-weight: 400;
                 text-align: left;
                 color: var(--light);
                 height: 120px;
                 margin-top: 1.5rem;
                 padding-left: 25px;
-                width: 250px;
+                width: 200px;
             }
 
             span {
-                font-size: 1.5rem;
-                font-weight: 300;
-                display: flex;
-                padding-right: 35px;
-                justify-content: end;
+                font-size: 1.2rem;
+                font-weight: 400;
+                font-style: italic;
+                margin-left: 80px;
+                color: var(--light);
+
+            }
+
+            .owl-dots {
+                text-align: center;
+                padding-top: 105px;
+                
+                .owl-dot.active {
+                    
+                    span {
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 50%;
+                        display: inline-block;
+                        background: var(--secondary);
+                        margin: 0 13px;
+
+
+                    }
+                }
+
+                .owl-dot {
+                    
+                    span {
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 50%;
+                        display: inline-block;
+                        background: var(--light);
+                        margin: 0 13px;
+
+                    }
+                }
             }
         }
     }
