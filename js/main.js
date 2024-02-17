@@ -10,7 +10,7 @@
 
 // script for carousel working
 $(document).ready(function(){
-    $(".owl-carousel").owlCarousel(
+    $(".owl-testimony").owlCarousel(
         {
             loop:true,
             items:3,
@@ -18,10 +18,24 @@ $(document).ready(function(){
             dotsEach: 2, 
             nav:false,
             autoplay:true,
-            autoplayTimeout:2000,
+            autoplayTimeout:2500,
+            autoplayHoverPause:true,
+        }
+    );
+  });
+
+  $(document).ready(function(){
+    $(".owl-gallery").owlCarousel(
+        {
+            loop:true,
+            items:4,
+            dots:true,
+            dotsEach: 2, 
+            nav:false,
+            autoplay:true,
+            autoplayTimeout:2500,
             autoplayHoverPause:true,
             margin:0,
-            responsive:true,
            
         }
     );

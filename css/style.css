@@ -3,17 +3,17 @@
 }
 
 :root {
-  --indigo:#6610f2;
-  --orange:#fd7e14;
-  --teal:#20c997;
-  --primary:#255282;
-  --secondary:#6c757d;
-  --success:#28a745;
-  --info:#17a2b8;
-  --warning:#ffc107;
-  --danger:#dc3545;
-  --light:#f8f9fa;
-  --dark:#343a40;
+  --indigo: #6610f2;
+  --orange: #fd7e14;
+  --teal: #20c997;
+  --primary: #255282;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
 }
 
 body {
@@ -189,18 +189,21 @@ body {
 #testimony .container .owl-carousel {
   margin-top: 5rem;
 }
-#testimony .container .owl-carousel .owl-item {
+#testimony .container .owl-carousel .owl-stage-outer .owl-stage .owl-item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: -moz-min-content !important;
+  width: min-content !important;
+  margin: 0 3rem !important;
 }
-#testimony .container .owl-carousel .owl-item img {
+#testimony .container .owl-carousel .owl-stage-outer .owl-stage .owl-item img {
   height: 150px;
   width: 150px;
   border-radius: 50%;
   display: block;
 }
-#testimony .container .owl-carousel blockquote {
+#testimony .container .owl-carousel .owl-stage-outer .owl-stage .owl-item blockquote {
   font-size: 1rem;
   font-weight: 400;
   text-align: left;
@@ -210,7 +213,7 @@ body {
   padding-left: 25px;
   width: 200px;
 }
-#testimony .container .owl-carousel span {
+#testimony .container .owl-carousel .owl-stage-outer .owl-stage .owl-item span {
   font-size: 1.2rem;
   font-weight: 400;
   font-style: italic;
